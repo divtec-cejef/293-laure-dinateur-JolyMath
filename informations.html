@@ -11,8 +11,9 @@
     <meta name="author" content="Steve Fallet">
     <!-- Icône de base du site : FAVICON -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
+<body>
 <header class="header-info">
     <a href="index.html" class="a">
         <div class="Laure">Laure Dinateur</div>
@@ -21,26 +22,32 @@
     <nav class="Info-Nav">
         <ul class="Info-ul">
             <li class="Info-li"><a href="index.html" class="Index"> Accueil </a></li>
-            <li class="Info-li"><a href="informations.html" class="info"> Qui suis-je</a></li>
+            <li class="Info-li"><a href="informations.html" class="info"> Qui suis-je ?</a></li>
             <li class="Info-li"><a href="contact.html" class="contacte"> Me contacter </a></li>
         </ul>
     </nav>
 </header>
-<body class="Page-info">
-<img src="_sources/images/laure-dinateur-graphiste.jpg" alt="image de Laure Dinateur">
+ <main class="Page-info">
+<img src="_sources/images/laure-dinateur-graphiste.jpg" alt="image de Laure Dinateur" class="laure-dinateur">
 <!-- Titre principal (unique) de la page -->
-<h1>Laure Dinateur</h1>
-<h1>Présentation</h1>
+<h1 class="titre">Laure Dinateur</h1>
+<h1 class="titre">Présentation</h1>
 <!-- Un paragraphe -->
-<p>Hello, je suis Laure Dinateur ! Bienvenue sur mon portfolio ou je partage mes réalisations favorites.
+<p>Hello, je suis <strong>Laure Dinateur</strong> ! Bienvenue sur mon portfolio ou je partage mes réalisations
+    favorites.<br>
 
-    Quand je ne dessine pas, j'aime faire du sport, jouer à des jeux vidéos, boire un bon café ou quelque chose de plus corsé.
+    Quand je ne dessine pas, j'aime faire du sport, jouer à des jeux vidéos, boire un bon café ou quelque chose de plus
+    corsé.
 
-    Vous pouvez me suivre sur Twitter, mon nom d'utilisateur est @lauredi.</p>
-</body>
+    Vous pouvez me suivre sur Twitter, mon nom d'utilisateur est <a class="lauredi" href="https://twitter.com/lauredi"> @lauredi</a>.
+</p>
+ </main>
 <footer>
-    <img src="_sources/images/facebook-draw.png" alt="image facebook">
-    <img src="_sources/images/twitter-draw.png" alt="image twitter">
-    <p>&copy; 2021 Laure Dinateur</p>
+    <a href="https://m.facebook.com/laure.dinateur?wtsid=rdr_00W92HnaaqnngMgQX">
+        <img src="_sources/images/facebook-draw.png" alt="image facebook" class="facebook"></a>
+    <a href="https://twitter.com/lauredi">
+        <img src="_sources/images/twitter-draw.png" alt="image twitter" class="twitter"></a>
+    <p class="footer">&copy; 2021 Laure Dinateur</p>
 </footer>
+</body>
 </html>
